@@ -1,0 +1,101 @@
+Microservices Einführung
+
+•Grundlagen
+
+•Ideale Größe für Microservices
+
+•Kommunikationsprotokolle (REST, Messaging)
+
+•Herausforderungen und Probleme
+
+•Szenarien in der Praxis (Skalierung, Cloud)
+
+ 
+
+Spring Boot
+
+•RESTful Microservices mit Spring MVC
+
+•Auto-Konfiguration
+
+•Build-Management und Deployment des Uber-JAR
+
+•Unterschied zu Java EE
+
+ 
+
+WildFly Swarm
+
+•Verwendung des Java EE Standards
+
+•Konfiguration und Fat-JAR
+
+•Repackaging des Application Servers
+
+ 
+
+Dropwizard
+
+•Performante und produktionsreife Microservices
+
+•Leichtgewichtige Bibliotheken
+
+•REST mit JAX-RS und JSON mit Jackson
+
+ 
+
+Konfiguration und Serviceregistrierung
+
+•Zentrale Konfigurationsverwaltung mit Profilen
+
+•Serviceregistrierung mit Consul, Eureka und Zookeeper
+
+•Clientseitiges Loadbalancing mit Netflix Ribbon
+
+•Resilience mit Hystrix
+
+ 
+
+Monitoring und Management der Application
+
+•Zentralisiertes Logging
+
+•Management-Endpoints
+
+•Monitoring
+
+•Health Checks
+
+ 
+
+Persistieren von Daten
+
+•Verwendung von JPA (Java Persistence API) und SQL
+
+•NoSQL Datastores
+
+•Datenbankzugriffe mit Spring Data
+
+ 
+
+Weitere Themen
+
+•Security, SSO, OAuth, OpenID
+
+•Testen mit Spring Boot oder Arquillian
+
+•Deployment und Betrieb
+
+•Verpacken mit Docker
+
+•Best Practices
+
+ 
+
+Zielgruppe
+
+ 
+
+Sind sind Java Softwareentwickler und suchen einen Einstieg in die Implementierung von Microservices.
+
+ 
