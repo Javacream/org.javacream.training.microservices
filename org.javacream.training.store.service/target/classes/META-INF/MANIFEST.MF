@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: org.javacream.training.store.service
+Implementation-Version: 1.0
+Build-Jdk-Spec: 1.8
+Created-By: Maven Integration for Eclipse
+
