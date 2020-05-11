@@ -1,4 +1,4 @@
-s:\curl -X GET http://localhost:9090/books/ISBN1
-s:\curl -X DELETE http://localhost:9090/books/ISBN1
-s:\curl -X PUT -H "Content-Type: application/json" -d @updateBook.json http://localhost:9090/books
-s:\curl -X POST http://localhost:9090/books?title=Spring
+curl -X POST http://localhost:9090/books?title=Spring
+curl -X GET http://localhost:9090/books/ISBN1
+curl -X PUT -H "Content-Type: application/json" -d @updateBook.json http://localhost:9090/books
+curl -X DELETE http://localhost:9090/books/ISBN1

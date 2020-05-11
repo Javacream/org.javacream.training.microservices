@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class JpaBoksService implements BooksService{
+public class JpaBooksService implements BooksService{
 	@Autowired private BooksRepository booksRepository;
 	@Autowired private IsbnGenerator isbnGenerator;
 	@Override
