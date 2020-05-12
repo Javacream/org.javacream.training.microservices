@@ -1,6 +1,7 @@
 package org.javacream.training.books.service.impl;
 
 import java.util.Collection;
+import java.util.stream.Collectors;
 
 import org.javacream.training.books.service.api.Book;
 import org.javacream.training.books.service.api.BookException;
@@ -13,6 +14,8 @@ import org.springframework.stereotype.Service;
 public class JpaBooksService implements BooksService{
 	@Autowired private BooksRepository booksRepository;
 	@Autowired private IsbnGenerator isbnGenerator;
+	@Autowired private ReadingStoreService readingStoreService;
+	private long delay = 0;
 	@Override
 	public String newBook(String title) throws BookException {
 		String isbn = isbnGenerator.next();
@@ -25,7 +28,13 @@ public class JpaBooksService implements BooksService{
 
 	@Override
 	public Book findBookByIsbn(String isbn) throws BookException {
-		return booksRepository.findById(isbn).get();
+		delay++;
+		if (delay > 4) {
+			delay = 0;
+		}
+		Book book = booksRepository.findById(isbn).get();
+		book.setAvailable(readingStoreService.getStockDelayed("books", isbn, delay) > 0);
+		return book;
 	}
 
 	@Override
@@ -42,7 +51,7 @@ public class JpaBooksService implements BooksService{
 
 	@Override
 	public Collection<Book> findAllBooks() {
-		return booksRepository.findAll();
+		return booksRepository.findAll().stream().map((book) -> {book.setAvailable(readingStoreService.getStock("books", book.getIsbn()) > 0); return book;}).collect(Collectors.toList());
 	}
 	
 	
