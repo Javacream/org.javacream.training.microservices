@@ -1,0 +1,1 @@
+INSERT INTO STORE  values ('books', 'ISBN1', 42)
