@@ -1,9 +1,9 @@
 package org.javacream.training.store;
 
-import org.springframework.boot.SpringBootConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootConfiguration
+@SpringBootApplication
 @ComponentScan("org.javacream.training.store")
 public class StoreServiceConfiguration {
 

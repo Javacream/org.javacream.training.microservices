@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class StoreServiceTest {
 	@Autowired private StoreService storeService;
 	@Test public void simpleStoreService() {
-		int stock = storeService.getStock("this", "that");
-		Assert.assertTrue(42 == stock);
+		int stock = storeService.getStock("books", "ISBN1");
+		Assert.assertTrue(4711 == stock);
 	}
 }
