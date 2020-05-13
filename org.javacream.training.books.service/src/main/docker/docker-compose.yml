@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+   db:
+     image: oscarfonts/h2:latest
+     environment:
+         - H2_OPTIONS=-ifNotExists
+   storeWebService:
+     depends_on:
+       - db
+     image: javacream/org.javacream.training.store.service:1.0
+   booksWebService:
+     depends_on:
+       - db
+       - storeWebService
+     image: javacream/org.javacream.training.books.service:latest
+     ports:
+       - "8902:9090"
+      
