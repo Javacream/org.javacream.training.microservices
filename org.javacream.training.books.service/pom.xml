@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.javacream.training</groupId>
-		<artifactId>org.javacream.training.build.parents.service</artifactId>
+		<artifactId>org.javacream.training.build.parents.microservice</artifactId>
 		<version>1.0</version>
 	</parent>
 	<artifactId>org.javacream.training.books.service</artifactId>
