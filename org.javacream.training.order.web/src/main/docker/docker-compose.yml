@@ -13,7 +13,6 @@ services:
        - db
        - storeWebService
      image: javacream/org.javacream.training.books.service:latest
-     ports:
    orderWebService:
      depends_on:
        - db
@@ -21,4 +20,4 @@ services:
        - booksWebService
      image: javacream/org.javacream.training.order.web:latest
      ports:
-       - "8893:8080"
+       - "8893:9091"

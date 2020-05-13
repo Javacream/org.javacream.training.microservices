@@ -14,5 +14,5 @@ services:
        - storeWebService
      image: javacream/org.javacream.training.books.service:latest
      ports:
-       - "8902:9091"
+       - "8902:9090"
       
