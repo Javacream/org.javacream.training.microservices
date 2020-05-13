@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>org.javacream.training.build.parents.docker</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	<parent>
+		<groupId>org.javacream.training</groupId>
+		<artifactId>org.javacream.training.build.parents.microservice</artifactId>
+		<version>1.0</version>
+	</parent>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>io.fabric8</groupId>
+				<artifactId>docker-maven-plugin</artifactId>
+				<configuration>
+					<images>
+						<image>
+							<name>javacream/%a:%l</name>
+							<build>
+								<!-- filter>@</filter -->
+								<dockerFile>${project.basedir}/src/main/docker/Dockerfile</dockerFile>
+								<assembly>
+									<descriptorRef>artifact-with-dependencies</descriptorRef>
+								</assembly>
+							</build>
+						</image>
+					</images>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
