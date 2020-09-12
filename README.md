@@ -6,7 +6,7 @@
 
 * Beispiele
   * https://github.com/Javacream/org.javacream.training.microservices
-    *  Branch deutsche_post:14.9.2020
+    *  Branch deutsche_post_14.9.2020
     
 * Digitales Flipchart
   * https://docs.google.com/presentation/d/1ymEiVIoQyl5_E2_617tQGo1yoY6Zzg0GOvoBUMOe-Fs/edit?usp=sharing
