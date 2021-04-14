@@ -17,4 +17,4 @@
   * https://github.com/Javacream/org.javacream.training.microservices
 
 * Digitales Flipchart
-  * https://docs.google.com/presentation/d/1TcVMuHfuFlfE7torMRqmItHLaWQkkPPJ7gbjB86XldI/edit?usp=sharing
+  * https://docs.google.com/presentation/d/1E5KOnpVhpeHgdQ7HX-fJ2rTSvvWgsoEaUqS6CPQSFnw/edit?usp=sharing
