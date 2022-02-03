@@ -1,0 +1,14 @@
+# Grundlagen
+* Allgemeine Vor- und Nachteile ggü. monolithischen Anwendungen
+* Sinnvolle Microservice-Schnitte / Best Practice für ideale Größe
+* API-Design
+Zentrale Konfigurationsverwaltung mit Profilen
+Serviceregistrierung / Loadbalancing
+Resilience
+Logging / Monitoring
+Health Checks
+Security, SSO, OAuth, OpenID
+Testen mit Spring Boot
+Docker
+Microservice-Pattern (z.B. verteilte Transaktionen)
+Praxisbeispiele anhand von Spring Boot
