@@ -1,27 +1,13 @@
 # org.javacream.training.microservices
 
-## Organisatorisches
+## Informations
 
-* Referent: Rainer Sawitzki, eMail: training@rainer-sawitzki.de
+* Trainer: Rainer Sawitzki, eMail: rainer.sawitzki@gmail.com
 
-* Seminarzeiten
-  * 8 Unterrichtseinheiten mit jeweils 90 Minuten
-  * jeweils 9:00 - 16:15
-  * Mittagspause 45’ (12:15-13:00)
-  * Kaffeepausen 10:30 - 10:45 und 14:30 - 14:45
+* Timetable
+ * 8 teaching units of 90 minutes each
+ * 9:00 - 16:15
+ * Lunch break 45' (12:15-13:00)
+ * Coffee breaks 10:30 - 10:45 and 14:30 - 14:45
 
-## RDWeb
-
-Ihnen bei Bedarf ein Integrata-Rechner zur Verfügung:
-
-* Aufruf im Browser mit https://rdweb.integrata-cegos.de/rdweb/webclient
-* Anmeldung mit student_f060<i>i</i>@integrata-cegos.de (i = 2 - 12), Password wird im Kurs mitgeteilt
- * Die Zuordnung der Nummern an die Teilnehmer wird im Seminar durchgeführt
-
-## Durchführung des Seminars
-
-* Beispiele
-  * https://github.com/Javacream/org.javacream.training.microservices
-
-* Digitales Flipchart
-  * https://docs.google.com/presentation/d/1v5TEGRyRHQbtb-xiXKwTH3aUKA0An0ODAsX4lcyqeAQ/edit?usp=sharing
+* [Digital flipchart](https://docs.google.com/presentation/d/1LDw6LnAEhiX_SCTAH908nfqickr8Z8TrBnW9mwyVIoc/edit?usp=sharing)
