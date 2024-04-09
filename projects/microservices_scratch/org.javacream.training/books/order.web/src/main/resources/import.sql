@@ -1,0 +1,6 @@
+insert into BOOKS (isbn, title, price) values ('Isbn100', 'Title 100', 9.99)
+insert into BOOKS (isbn, title, price) values ('Isbn101', 'Title 101', 19.99)
+insert into BOOKS (isbn, title, price) values ('Isbn102', 'Title 102', 1.99)
+insert into ORDERS (ORDER_ID, ISBN, NUMBER, STATUS, TOTAL_PRICE) VALUES(1, 'ISBN100', 20, 0, 19.99)
+insert into ORDERS (ORDER_ID, ISBN, NUMBER, STATUS, TOTAL_PRICE) VALUES(2, 'ISBN101', 20, 2, 19.99)
+insert into ORDERS (ORDER_ID, ISBN, NUMBER, STATUS, TOTAL_PRICE) VALUES(3, 'ISBN111', 20, 1, 19.99)
